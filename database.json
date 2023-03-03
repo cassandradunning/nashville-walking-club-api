@@ -1,0 +1,215 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Cassie Dunning",
+      "email": "cdunning@gmail.com",
+      "isLeader": true
+    },
+    {
+      "id": 2,
+      "fullName": "Jessica Freeman",
+      "email": "jfreeman@gmail.com",
+      "isLeader": true
+    },
+    {
+      "id": 3,
+      "fullName": "Lani Short",
+      "email": "lshort@gmail.com",
+      "isLeader": false
+    },
+    {
+      "id": 4,
+      "fullName": "Chelsea Lewis",
+      "email": "cslewis@gmail.com",
+      "isLeader": true
+    },
+    {
+      "id": 5,
+      "fullName": "Belinda Johnson",
+      "email": "belinda@gmail.com",
+      "isLeader": false
+    },
+    {
+      "id": 6,
+      "fullName": "Estela Madrigal",
+      "email": "eMmdrigal@gmail.com",
+      "isLeader": false
+    },
+    {
+      "email": "rshanks@gmail.com",
+      "fullName": "Rachel Shanks",
+      "isLeader": true,
+      "id": 7
+    },
+    {
+      "email": "shelbydenae@gmail.com",
+      "fullName": "Shelby Graham",
+      "isLeader": false,
+      "id": 8
+    },
+    {
+      "email": "kdavis@gmail.com",
+      "fullName": "Kim Davis",
+      "isLeader": false,
+      "id": 9
+    }
+  ],
+  "walkers": [
+    {
+      "id": 2,
+      "referral": "Word  of Mouth",
+      "phone": "202-244-7090",
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "referral": "Instagram",
+      "phone": "(507) 720-1158",
+      "userId": 6
+    }
+  ],
+  "walkLeaders": [
+    {
+      "id": 1,
+      "bio": "Founder & Head Leader",
+      "leaderImg": "https://res.cloudinary.com/dbdkmgcgo/image/upload/v1675979110/1_aaxq1u.png",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "bio": "OU Officianado",
+      "leaderImg": "https://res.cloudinary.com/dbdkmgcgo/image/upload/v1675979111/3_a46dsz.png",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "bio": "Sushi's Mom",
+      "leaderImg": "https://res.cloudinary.com/dbdkmgcgo/image/upload/v1675979111/2_hhi6vo.png",
+      "userId": 4
+    }
+  ],
+  "meetups": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "February 11 at 9:00AM",
+      "meetupName": "Sevier Park x Holy Yoga",
+      "address": "12 South",
+      "areaOfTownId": 2,
+      "meetupImg": "https://i.postimg.cc/sXsHh22t/2023-02-11-10-00-29.jpg"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "date": "February 25 at 9:00AM",
+      "meetupName": "The Steps at Percy Warner",
+      "address": "Belle Meade Blvd",
+      "areaOfTownId": 4,
+      "meetupImg": "https://i.postimg.cc/mkTzQvxX/u-http-www-gcanews-com-preliminary-wp-content-uploads-2020-10-Screen-shot-2020-10-02-at-11-18-25.png"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "date": "March 11 at 9:00AM",
+      "meetupName": "Cumberland Park City Walk",
+      "address": "592 S First St ",
+      "areaOfTownId": 3,
+      "meetupImg": "https://i.postimg.cc/Yqkf3Pfw/u-https-static-wixstatic-com-media-665609-15302d348952400a80ca8871957f6f9d-mv2-d-4288-2848-s-4-2.jpg"
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "date": "March 25 at 9:00AM",
+      "meetupName": "OneC1TY Walk x You Are Loved",
+      "address": "3 City Ave",
+      "areaOfTownId": 4,
+      "meetupImg": "https://www.cambridgeinc.com/wp-content/uploads/2014/12/Pond-and-Yard.jpg"
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "date": "April 8 at 9:00AM",
+      "meetupName": "Cumberland River Greenway at Metro Center",
+      "address": "Freeland Station Dr",
+      "areaOfTownId": 1,
+      "meetupImg": "https://i.postimg.cc/xTDJybQJ/Screenshot-2023-02-20-at-9-13-56-PM.png"
+    }
+  ],
+  "areaOfTown": [
+    {
+      "id": 1,
+      "areaName": "North Nashville"
+    },
+    {
+      "id": 2,
+      "areaName": "South Nashville"
+    },
+    {
+      "id": 3,
+      "areaName": "East Nashville"
+    },
+    {
+      "id": 4,
+      "areaName": "West Nashville"
+    }
+  ],
+  "suggestions": [
+    {
+      "userId": 2,
+      "walkName": "Rosebank Neighborhood",
+      "meetupImg": "https://i.postimg.cc/SxhLgv6h/th-1571340534.jpg",
+      "address": "Eastland",
+      "areaOfTownId": 3,
+      "id": 18
+    },
+    {
+      "userId": 1,
+      "walkName": "Germantown",
+      "meetupImg": "https://i.postimg.cc/Ls4tpgQQ/u-https-nashvillelifestyles-com-downloads-5075-download-germantown50.jpg",
+      "address": "Jefferson St",
+      "areaOfTownId": 1,
+      "id": 19
+    },
+    {
+      "userId": 7,
+      "walkName": "Victory Park",
+      "meetupImg": "https://i.postimg.cc/FHNcyJvF/u-https-img-ctykit-com-cdn-tn-nashville-images-tr-w-1800-listicle-3.jpg",
+      "address": "7th Ave",
+      "areaOfTownId": 1,
+      "id": 20
+    },
+    {
+      "userId": 5,
+      "walkName": "Cumberland Park",
+      "meetupImg": "https://i.postimg.cc/wjqyy857/u-https-9968c6ef49dc043599a5-e151928c3d69a5a4a2d07a8bf3efa90a-ssl-cf2-rackcdn-com-937574-3.jpg",
+      "address": "1st Street",
+      "areaOfTownId": 3,
+      "id": 21
+    },
+    {
+      "userId": 5,
+      "walkName": "Elmington Park",
+      "meetupImg": "https://i.postimg.cc/x8qPYVXJ/download.jpg",
+      "address": "West End",
+      "areaOfTownId": 4,
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "walkName": "Radnor",
+      "meetupImg": "https://i.postimg.cc/76VjLzqC/u-https-i-pinimg-com-originals-de-e3-4c-dee34cb34ea841f1bc42277cdf4a8779.jpg",
+      "address": "Otter Creek Rd",
+      "areaOfTownId": 2,
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "walkName": "Crieve Hall",
+      "meetupImg": "https://i.postimg.cc/bJnxBFhh/Crieve-Hall.webp",
+      "address": "Blackman Rd",
+      "areaOfTownId": 2,
+      "id": 26
+    }
+  ]
+}
